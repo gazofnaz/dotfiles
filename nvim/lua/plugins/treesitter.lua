@@ -1,5 +1,5 @@
 return {
-
+  -- Somehow treesitter is keeping the markdown modules installed and not removing them, which causes conflicts with pandoc
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -9,15 +9,13 @@ return {
         "html",
         "json",
         "lua",
-        -- "markdown",
-        -- "markdown_inline",
+        --"markdown",
+        --"markdown_inline",
         "python",
         "query",
         "regex",
         "vim",
         "yaml",
-        "go",
-        "bicep",
         "terraform",
       },
     },
