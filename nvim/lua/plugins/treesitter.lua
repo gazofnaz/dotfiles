@@ -1,5 +1,5 @@
 return {
-  -- Somehow treesitter is keeping the markdown modules installed and not removing them, which causes conflicts with pandoc
+  -- If some modules are not being removed, follow the lazyvim startup guide to delete everything including caches, and start again.
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
