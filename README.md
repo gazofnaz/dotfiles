@@ -10,6 +10,8 @@ Stored under `nvim/`, this is my LazyVim configuration, which can be symlinked o
 
 `sudo apt-get install pandoc` or `brew install pandoc`
 
+Download and install `FiraMono Nerd Font` from [nerdfonts](https://www.nerdfonts.com/font-downloads)
+
 ## Setup
 
 To restore the LazyVim configuration, you can run:
