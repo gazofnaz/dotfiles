@@ -8,14 +8,6 @@ family="FiraMono Nerd Font"
 family="FiraMono Nerd Font"
 style="Bold"
 
-#[font.normal]
-#family="InputMono Nerd Font"
-#style="Condensed"
-#
-#[font.bold]
-#family="InputMonoCondensed Nerd Font"
-#style="Bold"
-
 [window]
 decorations = "none"
 
