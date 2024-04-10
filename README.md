@@ -28,6 +28,13 @@ rm ~/.alacritty.toml
 ln -s ~/Repositories/dotfiles/alacritty/.alacritty.toml ~/
 ```
 
+To restore tmux configuration, you can run:
+
+```bash
+rm ~/.tmux.conf
+ln -s ~/Repositories/dotfiles/tmux/.tmux.conf ~/
+```
+
 ## Future enhancements:
 
 - @todo use make to install pre-requisites
