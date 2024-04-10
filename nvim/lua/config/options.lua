@@ -8,6 +8,7 @@ vim.opt.relativenumber = false
 vim.opt.spell = false
 vim.opt.foldmethod = "manual"
 vim.opt.foldenable = false
+vim.g["pandoc#syntax#conceal#urls"] = 1
 
 -- scrolling
 vim.opt.relativenumber = false
