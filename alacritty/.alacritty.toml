@@ -17,6 +17,7 @@ y=0
 
 # Base16 Railscasts 256 - alacritty color config
 # Ryan Bates (http://railscasts.com)
+# Modified to allow cursor to invert for light themes
 
 # Default colors
 [colors.primary]
@@ -25,8 +26,8 @@ foreground = '0xe6e1dc'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text = '0x2b2b2b'
-cursor = '0xe6e1dc'
+text = 'CellBackground'
+cursor = 'CellForeground'
 
 # Normal colors
 [colors.normal]

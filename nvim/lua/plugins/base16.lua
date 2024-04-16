@@ -6,7 +6,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "base16-gruvbox-material-dark-hard",
+      colorscheme = "base16-google-light",
     },
   },
 }

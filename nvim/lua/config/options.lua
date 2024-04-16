@@ -14,3 +14,6 @@ vim.g["pandoc#syntax#conceal#urls"] = 1
 vim.opt.relativenumber = false
 vim.opt.scrolloff = 8
 vim.opt.linebreak = true
+
+--TODO set this dynamically based on current scheme
+vim.opt.background = "light"
