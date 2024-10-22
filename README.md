@@ -8,9 +8,22 @@ Stored under `nvim/`, this is my LazyVim configuration, which can be symlinked o
 
 ## Pre-requisites
 
-`sudo apt-get install pandoc` or `brew install pandoc`
+- Install nvim
 
-Download and install `FiraMono Nerd Font` from [nerdfonts](https://www.nerdfonts.com/font-downloads)
+- Install broot, fd, ripgrep
+
+- Install [lazyvim](http://www.lazyvim.org/installation)
+
+- Install tmux
+
+- [Install tmux plugin manager](https://github.com/tmux-plugins/tpm)
+    - `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+    - `tmux source ~/.tmux.conf`
+    - `prefix + I`
+
+- `sudo apt-get install pandoc` or `brew install pandoc` (to be reviewed)
+
+- Download and install `FiraMono Nerd Font` from [nerdfonts](https://www.nerdfonts.com/font-downloads)
 
 ## Setup
 
