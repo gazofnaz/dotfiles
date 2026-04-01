@@ -14,6 +14,8 @@ Stored under `nvim/`, this is my LazyVim configuration, which can be symlinked o
 
 - Install [lazyvim](http://www.lazyvim.org/installation)
 
+ - Treesitter cli is now also required, which comes from npm (sigh) `npm install tree-sitter-cli -g`
+
 - Install tmux
 
 - [Install tmux plugin manager](https://github.com/tmux-plugins/tpm)

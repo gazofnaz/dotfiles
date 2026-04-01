@@ -31,16 +31,16 @@
 -- })
 
 -- Explicitly disable completion in markdown-like buffers (supports blink.cmp & nvim-cmp)
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "gitcommit", "markdown", "pandoc" },
-  callback = function()
-    -- blink.cmp reads this buffer variable
-    vim.b.completion = false
+ vim.api.nvim_create_autocmd("FileType", {
+   pattern = { "gitcommit", "markdown", "pandoc" },
+   callback = function()
+     -- blink.cmp reads this buffer variable
+     vim.b.completion = false
 
-    -- nvim-cmp fallback if that engine is active
-    local ok, cmp = pcall(require, "cmp")
-    if ok then
-      cmp.setup.buffer({ enabled = false })
-    end
-  end,
-})
+     -- nvim-cmp fallback if that engine is active
+     local ok, cmp = pcall(require, "cmp")
+     if ok then
+       cmp.setup.buffer({ enabled = false })
+     end
+   end,
+ })
