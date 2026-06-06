@@ -27,6 +27,8 @@ Stored under `nvim/`, this is my LazyVim configuration, which can be symlinked o
 
 - Download and install `FiraMono Nerd Font` from [nerdfonts](https://www.nerdfonts.com/font-downloads)
 
+- Install oh-my-zsh
+
 ## Setup
 
 To restore the LazyVim configuration, you can run:
@@ -49,6 +51,14 @@ To restore tmux configuration, you can run:
 rm ~/.tmux.conf
 ln -s ~/Repositories/dotfiles/tmux/.tmux.conf ~/
 ```
+
+To restore zsh configuration, you can run:
+
+```bash
+rm ~/.zshrc
+ln -s ~/Repositories/dotfiles/zsh/.zshrc ~/
+```
+
 
 ## Future enhancements:
 
