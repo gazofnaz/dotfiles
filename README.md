@@ -12,6 +12,8 @@ Stored under `nvim/`, this is my LazyVim configuration, which can be symlinked o
 
 - Install broot, fd, ripgrep
 
+- Install [lazygit](https://github.com/jesseduffield/lazygit?tab=readme-ov-file#release-binaries) — on Ubuntu 24.04 it isn't in apt, so use the official release binary (opened from nvim via floaterm with `<leader>gl`)
+
 - Install [lazyvim](http://www.lazyvim.org/installation)
 
  - Treesitter cli is now also required, which comes from npm (sigh) `npm install tree-sitter-cli -g`
